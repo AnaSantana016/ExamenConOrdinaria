@@ -8,9 +8,9 @@ public class ShoppingCart {
     private final List<Product> products;
     private double totalPrice;
 
-    public ShoppingCart(double totalPrice) {
+    public ShoppingCart() {
         products = new ArrayList<>();
-        this.totalPrice = totalPrice;
+        this.totalPrice = 0;
     }
     
     public void takeOff(int pos){
