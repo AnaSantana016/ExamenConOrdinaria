@@ -13,8 +13,8 @@ public class ShoppingCart {
         this.totalPrice = totalPrice;
     }
     
-    public static void takeOff(int pos){
-        
+    public void takeOff(int pos){
+        products.remove(pos);
     }
     
     public void add(Product product){
